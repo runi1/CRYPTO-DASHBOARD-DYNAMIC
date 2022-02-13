@@ -5,6 +5,7 @@ const Header = () => {
  
 
   const onClickHandler = () => {
+    // we should avoid direct access of DOM . but lue of time i those this approach
     let sidebar = document.querySelector(".sidebar");
     let sidebarBtn = document.querySelector(".sidebarBtn");
     console.log("sidebarBtn");
